@@ -105,4 +105,45 @@
   .linkautor {
     color: #ffffff;
   }
-  
+  @media (min-width: 400px) {
+    .container {
+      height: 600px;
+      width: 800px;
+      padding: 50px 50px; /* top-bottom left-right */
+      background-color: #fff;
+      border-radius: 50px;
+      border: 1px solid #222222;
+    }
+
+    #gen {
+      padding: 15px 30px; /* top-bottom left-right */
+      margin: 30px 5px; /* top-bottom left-right */
+      font-size: 4.99rem;
+      border-radius: 3px;
+      outline: none;
+      border: none;
+      color: #fff;
+      background-color: blue; /* default color */
+    }
+
+    #gen {
+      background-color: #ff0000;
+      border: 1px solid #222222;
+      border-radius: 100px;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      color: rgb(112, 112, 112);
+      margin-bottom: 20px;
+      text-decoration: underline;
+      font-weight: 900;
+    }
+
+    #quote {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      font-family: monospace;
+    }
+
+  }
